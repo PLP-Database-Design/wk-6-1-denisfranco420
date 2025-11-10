@@ -55,8 +55,8 @@ Testing will be manual, executed on Chrome browser in a local environment.
 
 | Phase                    | Planned Duration | Actual Duration | Status |
 | ------------------------ | ---------------- | --------------- | ------ |
-| Test Planning            | 1 Day            |                 |        |
-| Test Design (Test Cases) | 2 Days           |                 |        |
+| Test Planning            | 1 Day            |      1 day      |   done     |
+| Risk analysi             | 1 day           |        20hours         |        |
 | Test Execution           | 3 Days           |                 |        |
 | Defect Reporting         | Ongoing          |                 |        |
 | Test Closure             | 1 Day            |                 |        |
@@ -100,7 +100,6 @@ Exit Criteria
 | ---------------- | ------------------------------- |
 | Test Case Pass % | Around 87% of tests passed — most core features like search, add to cart, and checkout worked as expected. |
 | Defect Density   |  About 0.6 defects per module, meaning no major problem areas and good code stability overall.        |
-| Fix Rate         | in progress          |
 | Risk Coverage    | 95% of all high and medium risks were covered — only minor UI issues remain untested.         |
 
 12. Test Summary (Post Execution)
