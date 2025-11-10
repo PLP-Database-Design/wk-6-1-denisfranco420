@@ -12,16 +12,16 @@ This specification is explicit and test‑ready. It defines observable behaviors
 Browse titles, search, filter, and sort.
 
 ### User Stories
-- As a user, I can search books by title, author, or description.
-- As a user, I can filter by genre, price band, and rating.
-- As a user, I can sort by price, rating, and popularity.
-- As a user, I can view a book details page with multiple images, stock, ETA, and related titles.
+- As a user, I can search books by title, author, or description. ✅
+- As a user, I can filter by genre, price band, and rating. ❌
+- As a user, I can sort by price, rating, and popularity. ❌
+- As a user, I can view a book details page with multiple images, stock, ETA, and related titles. ❌
 
 ### Data Contract (Catalog)
 - Book: `{ id, title, author, description, price:number, image, (future: genre, rating, stock, isbn, dimensions, tags, featured) }`
 
 ### ✅ Acceptance Criteria
-- Search is case‑insensitive, trims whitespace; empty query returns full list.
+- Search is case‑insensitive, trims whitespace; empty query returns full list. ❌
 - Filters combine with AND semantics; each empty‑state message states which filter eliminates results.
 - Sorting indicates active field/direction; tie‑breakers stable.
 - All card images: `loading="lazy"`, explicit `width/height`, alt text includes title + author.
