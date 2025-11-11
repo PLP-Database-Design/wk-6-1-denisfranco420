@@ -14,17 +14,15 @@
 | TC-010 | Invalid Search | User on Catalog page | 1. Use the second search bar <br>2. Enter random Title not in the catalog | No results found message is displayed | Works as expected | ✅ Pass |
 | TC-011 | Empty search | User on checkout page | 1. Use the second search bar <br>2. Click search without input | No validation shown | Works as expected | ✅ Pass |
 | TC-012 | Login Functionality | User on the login page | 1. Use the login page <br>2. Enter correct credentials | Access catalog on correct credentials | Login page not found | ❌ Fail |
-| TC-013 | Quantity Update increse | User on checkout page | 1. Use the checkout page <br>2. Increase the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
+| TC-013 | Quantity Update increase | User on checkout page | 1. Use the checkout page <br>2. Increase the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
 | TC-014 | Quantity Update decrease | User on checkout page |1. Use the checkout page <br>2. Reduce the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
 | TC-014 | Quantity Update decrease | User on checkout page |1. Use the checkout page <br>2. Reduce the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
 | TC-015 | Invalid payment details | User on checkout page |1. User on payment details page<br>2. Leave the fields Empty | System throws a warning to enter payment details | Works as expected | ✅ Pass |
 | TC-016 | Responsive design | User on catalog/checkout page |1. Use the checkout page <br>2. Change the display of the user screen | Items and objects change responsively | Works as expected | ✅ Pass |
 | TC-017 | Search by Order ID | User on catalog/checkout page |1. Use the checkout page <br>2. Change the display of the user screen | Items and objects change responsively | Works as expected | ✅ Pass |
 | TC-018 | Filter by Author | User on catalog page | 1. Select search and write Author name | Display books by author | Works as expected | ✅ Pass |
+| TC-019 | Invalid Address on Payment | User on checkout page | 1. Input an invalid address on the checkout form | Payment flow interupted | Payment is Continued | ❌ Fail |
 
-
-
-Post-conditions:
 
 
 
