@@ -16,6 +16,9 @@
 | TC-012 | Login Functionality | User on the login page | 1. Use the login page <br>2. Enter correct credentials | Access catalog on correct credentials | Login page not found | ❌ Fail |
 | TC-013 | Quantity Update increse | User on checkout page | 1. Use the checkout page <br>2. Increase the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
 | TC-014 | Quantity Update decrease | User on checkout page |1. Use the checkout page <br>2. Reduce the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
+| TC-014 | Quantity Update decrease | User on checkout page |1. Use the checkout page <br>2. Reduce the quanities of the items on cart | Item quantity increases and price updates | Works as expected | ✅ Pass |
+| TC-015 | Invalid payment details | User on checkout page |1. User on payment details page<br>2. Leave the fields Empty | System throws a warning to enter payment details | Works as expected | ✅ Pass |
+| TC-016 | Responsive design | User on catalog/checkout page |1. Use the checkout page <br>2. Change the display of the user screen | Items and objects change responsively | Works as expected | ✅ Pass |
 
 
 
