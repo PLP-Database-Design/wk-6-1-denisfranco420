@@ -61,8 +61,6 @@
 | **OS**        | Windows  11                                              |
 | **Browser**   | Google Chrome (latest)                                       |
 | **Tools**     | GitHub, VS Code, Excel (test data), Jira for defect tracking |
-| **Backend**   | Node.js / Express                                            |
-| **Database**  | MongoDB (local test dataset)                                 |
 
 📦 6. Test Deliverables
 
