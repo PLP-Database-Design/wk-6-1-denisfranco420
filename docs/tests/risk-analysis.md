@@ -63,7 +63,8 @@
 
 ## 📈 Risk Distribution
 
-<img width="1186" height="900" alt="image" src="https://github.com/user-attachments/assets/2739fdb3-4f7e-4edc-8448-6bb0e647969f" />
+<img width="671" height="500" alt="image" src="https://github.com/user-attachments/assets/9dd07afa-2fd4-42a0-8457-103d639d7325" />
+
 
 
 ---
