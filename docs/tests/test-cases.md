@@ -22,8 +22,27 @@
 | TC-017 | Search by Order ID | User on catalog/checkout page |1. Use the checkout page <br>2. Change the display of the user screen | Items and objects change responsively | Works as expected | ✅ Pass |
 | TC-018 | Filter by Author | User on catalog page | 1. Select search and write Author name | Display books by author | Works as expected | ✅ Pass |
 | TC-019 | Invalid Address on Payment | User on checkout page | 1. Input an invalid address on the checkout form | Payment flow interupted | Payment is Continued | ❌ Fail |
-
-
-
+| ID      | Title                            | Preconditions           | Steps                                                                  | Expected Result                                 | Actual Result | Status |
+|---------|----------------------------------|--------------------------|-------------------------------------------------------------------------|--------------------------------------------------|----------------|--------|
+| TC-021  | Wishlist Add                     | User logged in          | 1. Click wishlist icon on book                                        | Book added to wishlist                           | -              | Pending |
+| TC-022  | Wishlist Remove                  | Wishlist page open      | 1. Click remove on wishlist item                                      | Item removed                                     | -              | Pending |
+| TC-023  | Order History Display            | User logged in          | 1. Navigate to Order History                                          | Order list displayed                             | -              | Pending |
+| TC-024  | Incorrect Password Login         | Login page              | 1. Enter wrong password<strong> </strong>                             | Error message shown                              | -              | Pending |
+| TC-025  | Sorting by Price (Low–High)      | Catalog page            | 1. Select “Low to High” sorting                                      | Items sorted ascending                           | -              | Pending |
+| TC-026  | Sorting by Price (High–Low)      | Catalog page            | 1. Select “High to Low” sorting                                      | Items sorted descending                          | -              | Pending |
+| TC-027  | Sorting by Popularity            | Catalog page            | 1. Select “Most Popular” sorting                                     | Popular books appear first                       | -              | Pending |
+| TC-028  | Invalid Email Registration       | Signup page             | 1. Enter invalid email format                                        | Email validation error                           | -              | Pending |
+| TC-029  | Missing Required Signup Field    | Signup page             | 1. Leave required fields empty                                       | Error prompt displayed                           | -              | Pending |
+| TC-030  | Password Strength Validation     | Signup page             | 1. Enter weak password                                               | Password strength warning shown                  | -              | Pending |
+| TC-031  | Add Review                       | Book details page       | 1. Write review<br>2. Click Submit                                   | Review displayed                                 | -              | Pending |
+| TC-032  | Delete Review                    | Book details page       | 1. Delete own review                                                 | Review removed                                   | -              | Pending |
+| TC-033  | Load More Button                 | Catalog page            | 1. Scroll and click “Load More”                                      | Additional books load                             | -              | Pending |
+| TC-034  | Newsletter Signup                | Homepage                | 1. Enter email<br>2. Subscribe                                       | Confirmation message                              | -              | Pending |
+| TC-035  | Add Multiple Books to Cart       | Catalog page            | 1. Add 3 different books                                             | All appear in cart                                | -              | Pending |
+| TC-036  | Remove Multiple Cart Items       | Checkout page           | 1. Remove several items                                              | All selected items removed                        | -              | Pending |
+| TC-037  | View Cart from Catalog           | Catalog page            | 1. Click cart icon                                                   | Cart overlay/page opens                           | -              | Pending |
+| TC-038  | Navigate Back to Home            | Any page                | 1. Click Home logo                                                   | Redirect to homepage                              | -              | Pending |
+| TC-039  | Search Autocomplete Suggestions  | Homepage                | 1. Type slowly in search bar                                        | Suggestions appear                                | -              | Pending |
+| TC-040  | 404 Error Handling               | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
 
 
