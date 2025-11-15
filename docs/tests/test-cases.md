@@ -48,6 +48,12 @@
 | TC-044  | Order state corruption or invalid status transitions | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
 | TC-045  | Authentication bypass - non-admin accessing admin functions | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
 | TC-046  | CSV export corruption - unreadable in Excel | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-047 |  Performance degradation - slow page loads | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-048 | WCAG 2.1 AA compliance violations | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-049 | Minor browser compatibility issues | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+
+
+
 
 
 
