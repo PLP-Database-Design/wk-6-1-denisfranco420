@@ -7,7 +7,7 @@
 
 | Total Risks | Very High | High | Medium | Low | Very Low |
 |-------------|-----------|------|--------|-----|----------|
-| 15 | 4 | 3 | 3 | 3 | 2 |
+| 16 | 4 | 3 | 4 | 3 | 2 |
 
 ---
 
@@ -37,18 +37,18 @@
 | Risk ID | Risk Description | Category | Functional Area | Likelihood | Impact | Risk Score | Mitigation Strategy | Test Case ID|
 |---------|------------------|----------|-----------------|------------|--------|------------|-------------------|----------------|
 | RISK-008 | CSV export corruption - unreadable in Excel | Functional | Orders (FR-O04) | 4 | 3 | **12** | CSV format validation; import testing in target applications | TC-047 |
-| RISK-009 | Return window logic errors (day 8 accepted defect) | Functional | Returns (FR-R01) | 3 | 3 | **9** | Business rule testing on return windows; edge case date testing |
-| RISK-010 | Critical workflow blockers (cart persistence, form submission) | Technical | User Experience | 3 | 3 | **9** | End-to-end workflow testing; form validation comprehensive testing |
-
+| RISK-009 | Return window logic | Functional | Returns (FR-R01) | 3 | 3 | **9** | Business rule testing on return windows; edge case date testing | TC-038|
+| RISK-010 | Critical workflow blockers (cart persistence, form submission) | Technical | User Experience | 3 | 3 | **9** | End-to-end workflow testing | TC-040|
+|RISK -011| form validation comprehensive testing | Technical| User Experience| 3|3| **9**| User experience| TC-015<br>TC-019|
 ---
 
 ## 🟢 LOW SEVERITY RISKS
 
 | Risk ID | Risk Description | Category | Functional Area | Likelihood | Impact | Risk Score | Mitigation Strategy | Test Case ID|
 |---------|------------------|----------|-----------------|------------|--------|------------|-------------------|----------------|
-| RISK-011 | Performance degradation - slow page loads | Non-Functional | Performance (FR-X02) | 3 | 2 | **6** | Performance benchmarking; lazy loading verification |
-| RISK-012 | WCAG 2.1 AA compliance violations | Non-Functional | Accessibility (FR-X01) | 4 | 2 | **8** | Accessibility audit; screen reader testing |
-| RISK-013 | Poor search/discovery experience | Functional | Search (Catalog) | 4 | 2 | **8** | Search relevance testing; filter combination testing |
+| RISK-012 | Performance degradation - slow page loads | Non-Functional | Performance (FR-X02) | 3 | 2 | **6** | Performance benchmarking; lazy loading verification | TC-047 |
+| RISK-013 | WCAG 2.1 AA compliance violations | Non-Functional | Accessibility (FR-X01) | 4 | 2 | **8** | Accessibility audit; screen reader testing |TC-048|
+| RISK-014 | Poor search/discovery experience | Functional | Search (Catalog) | 4 | 2 | **8** | Search relevance testing; filter combination testing | TC-010<br>TC-011|
 
 ---
 
@@ -56,8 +56,8 @@
 
 | Risk ID | Risk Description | Category | Functional Area | Likelihood | Impact | Risk Score | Mitigation Strategy | Test Case ID |
 |---------|------------------|----------|-----------------|------------|--------|------------|-------------------|--------------|
-| RISK-014 | Cosmetic UI issues and minor visual defects | UI/UX | Notifications | 4 | 1 | **4** | Visual regression testing; cross-browser testing |
-| RISK-015 | Minor browser compatibility issues | Non-Functional | Compatibility (FR-X03) | 2 | 1 | **2** | Cross-browser testing on target platforms |
+| RISK-015 | Cosmetic UI issues and minor visual defects | UI/UX | Notifications | 4 | 1 | **4** | Visual regression testing; cross-browser testing | - |
+| RISK-016 | Minor browser compatibility issues | Non-Functional | Compatibility (FR-X03) | 2 | 1 | **2** | Cross-browser testing on target platforms | TC-049 |
 
 ---
 
