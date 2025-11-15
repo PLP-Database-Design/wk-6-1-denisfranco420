@@ -42,5 +42,13 @@
 | TC-038  | Navigate Back to Home            | Any page                | 1. Click Home logo                                                   | Redirect to homepage                              | -              | Pending |
 | TC-039  | Search Autocomplete Suggestions  | Homepage                | 1. Type slowly in search bar                                        | Suggestions appear                                | -              | Pending |
 | TC-040  | 404 Error Handling               | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-041  | Payment taken but order not created               | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-042  | XSS vulnerability via markdown `javascript:` links | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-043  | User data isolation failure - one user sees another's data | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-044  | Order state corruption or invalid status transitions | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-045  | Authentication bypass - non-admin accessing admin functions | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+| TC-046  | CSV export corruption - unreadable in Excel | Enter random invalid URL | 1. Go to /random-url-xyz                                            | 404 error page displayed                          | -              | Pending |
+
+
 
 
