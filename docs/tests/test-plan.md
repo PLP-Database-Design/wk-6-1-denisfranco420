@@ -62,14 +62,11 @@ Testing will be manual, executed on Chrome browser in a local environment.
 | Test Closure             | 1 Day            |                 |        |
 
 8. Roles & Responsibilities
+
 | Role              | Team Member    | Responsibilities                                |
-
 | ----------------- | -------------- | ----------------------------------------------- |
-
 | **Test Manager**  | Denis Kyalo    | Prepare test plan, track progress, assign tasks |
-
 | **Risk Analyst**  | Bramwel Mutugi | Identify and evaluate risks, maintain risk log  |
-
 | **Test Executor** | Gideon Bethuel | Perform testing, log and retest defects         |
 
 
