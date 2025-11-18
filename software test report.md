@@ -8,7 +8,7 @@
 
 ### Date of Report: 18 Nov 2025
 
-### Prepared By: Bramwel Mutugi
+### Prepared By: Testerss
 
 ---
 
@@ -233,6 +233,8 @@ Likely broken route mapping or missing deployment artifact.
 
 **Recommendation:**  
 Fix route handler, ensure login component is packaged correctly, validate routing in production build.
+
+<img width="887" height="627" alt="image" src="https://github.com/user-attachments/assets/64237d92-3b22-4c7c-bce9-87468e527e00" />
 
 ---
 
