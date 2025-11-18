@@ -132,6 +132,8 @@ The following were **not tested or partially tested**:
 - **Browser Tools:** Chrome DevTools, Edge DevTools
 - **Documentation:** Markdown
 - **Environment:** Local hosting environment
+  
+<img width="566" height="208" alt="image" src="https://github.com/user-attachments/assets/c1dfb8f9-7164-4c64-b13d-d4ed50c47f3b" />
 
 ---
 
