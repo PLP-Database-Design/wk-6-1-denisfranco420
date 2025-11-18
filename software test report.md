@@ -85,6 +85,8 @@ Measured:
 - Load behavior during catalog interactions
 - Checkout flow latency
 
+<img width="938" height="537" alt="image" src="https://github.com/user-attachments/assets/3a5e1954-8ab1-4065-8f92-5f025551398e" />
+
 ---
 
 ## 4. Areas Not Covered
