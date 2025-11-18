@@ -308,8 +308,16 @@ System stability and reliability are insufficient for production release.
 - Perform cross-browser testing on Safari and Firefox
 
 ---
+## 14. Approvals
 
-## 14. Appendices
+| Role              | Name                | Approval Date | Signature | Notes |
+|------------------|---------------------|----------------|-----------|--------|
+| QA Lead          | Denis Kyalo         | 18 Nov 2025    | DK        | Accepts remaining risks     |
+| Risk analyst   |  Bramwel Mutugi  |        18 Nov 2025  | BM     | Acknoledges all untested risks     |
+| Test executer  | Gideon Bethuel        | 18 Nov 2025    | GB        |   Confirms all test case outcomes     |
+
+---
+## 15. Appendices
 
 ### 14.1 Test Case Execution Sheet
 
