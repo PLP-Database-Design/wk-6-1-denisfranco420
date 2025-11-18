@@ -35,6 +35,7 @@ The objectives of the testing cycle were:
 - Assess non-functional quality, including responsiveness and browser compatibility.
 - Verify performance using available browser developer tools.
 - Identify critical defects that could impact user experience or business workflows.
+<img width="934" height="172" alt="image" src="https://github.com/user-attachments/assets/6f627c48-9aae-4214-b7f7-70ef3c62d030" />
 
 
 ---
